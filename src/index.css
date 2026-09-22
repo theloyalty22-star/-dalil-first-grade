@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Tajawal', system-ui, -apple-system, sans-serif;
+  }
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Cairo', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom smooth transitions and clean accents */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+}
